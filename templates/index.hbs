@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1>Basic Template Renderer</h1>
+    <p>Environment variables that start with <i>TMPL_</i> will be fed into the template</p>
+
+    <p>Try it out!</p>
+    <pre>
+      # set TMPL_DEMO when running the server
+      TMPL_DEMO="WORLD" node server.js
+    </pre>
+
+    <h2>Hello {{TMPL_DEMO}}!</h2>
+
+    <ul>
+      <li><a href="/">Home</a></li>
+      <li><a href="/demo">Demo</a></li>
+      <li><a href="/demo/other">Other</a></li>
+    </ul>
+  </body>
+</html>

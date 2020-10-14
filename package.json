@@ -1,0 +1,16 @@
+{
+  "name": "@ryanray/template-renderer",
+  "version": "0.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.6.0",
+    "handlebars": "^4.7.6",
+    "point-of-view": "^4.6.0"
+  }
+}
