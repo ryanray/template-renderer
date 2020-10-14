@@ -2,6 +2,12 @@
 
 Minimal template rendering with simple environment variable based interpolation.
 
+GitHub Repo: [https://github.com/ryanray/template-renderer](https://github.com/ryanray/template-renderer)
+
+DockerHub Repo [https://hub.docker.com/r/ryanray/template-renderer](https://hub.docker.com/r/ryanray/template-renderer)
+
+Fastify: [https://www.fastify.io/](https://www.fastify.io/)
+
 ## Example
 ```html
 // ./my-templates/hello.hbs
