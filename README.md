@@ -19,8 +19,7 @@ version: "3.8"
 services:
   my-basic-renderer:
     container_name: my-basic-renderer
-    build:
-      image: ryanray/template-renderer:latest
+    image: ryanray/template-renderer:latest
     ports:
       - "8080:3000"
     environment:
